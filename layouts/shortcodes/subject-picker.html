@@ -1,0 +1,11 @@
+{{ $subject := (.Get "subject") }}
+{{ range index .Site.Data.subjects $subject }}
+
+<h2>{{ .title }}</h2>
+<ul>
+    {{ range .projects }}
+      <li>{{ .title }}</li>
+    {{ end }}
+</ul>
+
+{{ end }}
