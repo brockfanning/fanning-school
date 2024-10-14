@@ -1,0 +1,13 @@
+{{ $subject := (.Get "subject") }}
+{{ $data := index .Site.Data.subjects $subject }}
+{{ with $data }}
+<div class="projects">
+    {{ range .projects }}
+      <div class="project">
+        <h3>{{ .title }}</h3>
+        <p>{{ .description }}</p>
+      </div>
+    {{ end }}
+</div>
+
+{{ end }}

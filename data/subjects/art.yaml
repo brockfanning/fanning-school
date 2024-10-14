@@ -1,4 +1,8 @@
-- title: Art
-  projects:
-    - title: The Hunchback of Notre Dame
-    - title: Les Misérables
+title: Art
+icon: bxs-palette
+url: art
+projects:
+  - title: Contour drawing
+    description: Make 3 full-page contour drawings on anything in the house. Include a label and a date.
+  - title: Copycat
+    description: Find any work of art or photo and draw a recreation of it, as close as possible.

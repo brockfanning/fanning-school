@@ -1,0 +1,11 @@
+.subjects {
+    display: flex;
+    justify-content: space-between;
+}
+.subject {
+    flex: 1;
+    width: 32%;
+}
+.subject a {
+    color: inherit;
+}

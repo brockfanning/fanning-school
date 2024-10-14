@@ -1,11 +1,10 @@
-{{ $subject := (.Get "subject") }}
-{{ range index .Site.Data.subjects $subject }}
-
-<h2>{{ .title }}</h2>
-<ul>
-    {{ range .projects }}
-      <li>{{ .title }}</li>
+<div class="subjects">
+    {{ range .Site.Data.subjects }}
+    <div class="subject">
+        <a href="{{ relURL .url }}">
+            <h2>{{ .title }}</h2>
+            <i class="bx bx-lg {{ .icon }}"></i>
+        </a>
+    </div>
     {{ end }}
-</ul>
-
-{{ end }}
+</div>
