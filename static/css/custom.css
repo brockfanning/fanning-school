@@ -1,11 +1,26 @@
 .subjects {
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 .subject {
     flex: 1;
-    width: 32%;
+    padding: 20px;
+    box-shadow: 1px 1px 10px black;
 }
 .subject a {
     color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+.project {
+    display: none;
+}
+main > div > article {
+    width: 100%;
+}
+.next-project {
+    cursor: pointer;
 }

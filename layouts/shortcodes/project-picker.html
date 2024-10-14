@@ -2,12 +2,12 @@
 {{ $data := index .Site.Data.subjects $subject }}
 {{ with $data }}
 <div class="projects">
-    {{ range .projects }}
-      <div class="project">
-        <h3>{{ .title }}</h3>
-        <p>{{ .description }}</p>
-      </div>
-    {{ end }}
+  <button class="next-project" title="Try a different project."><i class="bx bx-lg bx-refresh"></i></button>
+  {{ range .projects }}
+    <div class="project">
+      <h3>{{ .title }}</h3>
+      <p>{{ .description }}</p>
+    </div>
+  {{ end }}
 </div>
-
 {{ end }}

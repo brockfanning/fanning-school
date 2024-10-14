@@ -6,3 +6,7 @@ projects:
     description: Make 3 full-page contour drawings on anything in the house. Include a label and a date.
   - title: Copycat
     description: Find any work of art or photo and draw a recreation of it, as close as possible.
+  - title: Attention to detail
+    description: Look at a painting for 5 minutes. Write down as many observations as you can.
+  - title: Artistic expression
+    description: Find a work of art that appears to be making a statement. What statement is it making? When was the work done? Was it a contraversial statement at the time?

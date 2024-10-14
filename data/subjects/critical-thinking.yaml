@@ -1,0 +1,8 @@
+title: Critical Thinking
+icon: bx-brain
+url: critical-thinking
+projects:
+  - title: Logic fallacies
+    description: Describe a logical fallacy and make up an example of someone using it.
+  - title: Devil's advocate
+    description: Think of something you believe is true. Write an argument that it is false.

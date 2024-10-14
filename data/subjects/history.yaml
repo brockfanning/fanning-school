@@ -1,0 +1,10 @@
+title: History
+icon: bxs-castle
+url: history
+projects:
+  - title: Research topic
+    description: Pick something from history that interests you. Research it and write down a summary. Include why it was interesting to you and what surprised you.
+  - title: Average Joe
+    description: Pick a period and place from history. Learn about what conditions for like for the average person during that period in that place.
+  - title: Big idea
+    description: Describe an idea from history that had a big impact on the world. Explain it in detail. It can be a idea of an individual or a group. Was it a good idea or a bad idea?

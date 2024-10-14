@@ -5,5 +5,3 @@ theme = 'ananke'
 
 [params]
     favicon = 'favicon.ico'
-    custom_css = ["custom.css"]
-    mainSections = ['foo']
