@@ -8,3 +8,7 @@ projects:
     description: Pick a period and place from history. Learn about what conditions for like for the average person during that period in that place.
   - title: Big idea
     description: Describe an idea from history that had a big impact on the world. Explain it in detail. It can be a idea of an individual or a group. Was it a good idea or a bad idea?
+  - title: What is it good for?
+    description: Describe a battle or war from history. What are the main reasons that it started? What were the main outcomes after it ended?
+  - title: Religiosity
+    description: Describe any religion. When and where did it start? What are some important beliefs and customs? Which beliefs and customs do you agree with? Which beliefs and customs do you disagree with?
