@@ -6,3 +6,7 @@ projects:
     description: Describe a logical fallacy and make up an example of someone using it.
   - title: Devil's advocate
     description: Think of something you believe is true. Write an argument that it is false.
+  - title: Cognitive distortions
+    description: What are cognitive distortions? Describe 3 cognitive distortions and give made-up examples.
+  - title: Cognitive distortions - daily
+    description: Describe a thought you had recently that exemplifies a cognitive distortion. How much anxiety did the thought cause on a scale of 1 to 10? How do you feel differently knowing that it was a cognitive distortion?
