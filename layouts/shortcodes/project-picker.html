@@ -6,7 +6,7 @@
   {{ range .projects }}
     <div class="project">
       <h3>{{ .title }}</h3>
-      <p>{{ .description }}</p>
+      {{ .description | markdownify }}
     </div>
   {{ end }}
 </div>
