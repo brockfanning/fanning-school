@@ -1,0 +1,8 @@
+title: Geography
+icon: bx-map
+url: geography
+projects:
+  - title: Another one rides the bus
+    description: Take one of your parents on a bus trip to the library. Research the bus fare, and look up the schedule for when and where to catch the bus.
+  - title: The five-state problem
+    description: Draw an outline of the United States. Pick any five states. Draw them in on the map, and write the name of each state and its capital city.
