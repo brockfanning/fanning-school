@@ -1,0 +1,16 @@
+title: Civics
+icon: bxs-landmark
+url: civics
+projects:
+  - title: City Mayor
+    description: Who is the current mayor of our city or a past mayor? What is one of the bills or laws they passed? Would you vote for them and why?
+  - title: U.S. House of Representatives
+    description: What is the name and district of one of the 8 members of the U.S. House of Representatives elected in our state? What is one of the bills or laws that they voted on? Would you vote for them and why?
+  - title: U.S. Senate
+    description: What is the name of one of the 2 members of the U.S. Senate elected in our state? What is one of the bills or laws that they voted on? Would you vote for them and why?
+  - title: The First Amendment
+    description: What is one of 5 freedoms protected by the First Amendment of the U.S. Constitution? What is an example of an activity protected by this freedom in the U.S.? What is an example of an activity not protected by this freedom in the U.S.? What is another country where this freedom is not protected?
+  - title: Liberals
+    description: What do Americans mean by the word "Liberal"? Does it mean something different in the rest of the world? When, where, and how was the word first used in politics?
+  - title: Conservatives
+    description: What do Americans mean by the word "Liberal"? Does it mean something different in the rest of the world? When, where, and how was the word first used in politics?
