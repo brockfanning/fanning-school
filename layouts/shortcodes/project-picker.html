@@ -7,6 +7,9 @@
     <div class="project">
       <h3>{{ .title }}</h3>
       {{ .description | markdownify }}
+      <p>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=brockfanning@gmail.com,fredafanning@gmail.com&su=Homeschool project: {{ .title }}" target="_blank">Turn it in by email</a>
+      </p>
     </div>
   {{ end }}
 </div>
