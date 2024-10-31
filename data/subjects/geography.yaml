@@ -2,7 +2,9 @@ title: Geography
 icon: bx-map
 url: geography
 projects:
-  - title: Another one rides the bus
+  - title: Ride the bus
     description: Take one of your parents on a bus trip to the library. Research the bus fare, and look up the schedule for when and where to catch the bus.
-  - title: The five-state problem
+  - title: Draw five states
     description: Draw an outline of the United States. Pick any five states. Draw them in on the map, and write the name of each state and its capital city.
+  - title: Example of partition
+    description: Describe an example of when a country has been split into two separate countries. What was the cause? Did it help or hurt?
