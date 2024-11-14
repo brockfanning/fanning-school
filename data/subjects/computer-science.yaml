@@ -1,0 +1,8 @@
+title: Computer science
+icon: bx-code-curly
+url: computer-science
+projects:
+  - title: Hello world
+    description: "Install any programming language on your computer. Write a program that shows 'HELLO WORLD' on the screen. Some suggestions for programming languages are Python or Node, but anything is fine."
+  - title: Github repository
+    description: Create an account on Github.com. Create a repository. Add a file to the repository. You may need to find a tutorial for this.
