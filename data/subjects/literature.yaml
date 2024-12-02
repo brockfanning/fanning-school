@@ -10,6 +10,12 @@ projects:
     description: After you have finished an entire book, write up a report about it. What things did the author do well? What did you not like? What opinions do you have about the plot?
   - title: Stage play
     description: Watch a full stage play (either in person or filmed) and write up a report about it. How was it different than reading a book? How was it different than watching a movie?
+  - title: Replace audio
+    description: Find any video online, and record new audio for it.
+  - title: Short story outline
+    description: Come up with an idea for a short story plot and write an outline for it.
+  - title: Short story
+    description: After you have done the short story outline project, write the short story.
   - title: Constitutional Peasants
     description: |
       With two partners, perform this three-part scene. Extra credit: use a british accent.
