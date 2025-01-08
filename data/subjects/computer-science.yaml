@@ -6,3 +6,5 @@ projects:
     description: "Install any programming language on your computer. Write a program that shows 'HELLO WORLD' on the screen. Some suggestions for programming languages are Python or Node, but anything is fine."
   - title: Github repository
     description: Create an account on Github.com. Create a repository. Add a file to the repository. You may need to find a tutorial for this.
+  - title: Game theory
+    description: What is game theory? What is an example of a 'zero sum' game? What is an example of a 'positive sum' game?
