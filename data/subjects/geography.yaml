@@ -16,3 +16,7 @@ projects:
     description: What are three examples of countries in the world where citizens are not allowed to leave? Give examples from present day or from the past.
   - title: Declining birth rates
     description: Pick a country in the world. What is the fertility rate for that country? What is the replacement rate for that country? What does that mean for the population of the country? Is this a good thing or a bad thing? Why?
+  - title: Immigration
+    description: "Pick any two countries: one where it is easy to immigrate, and another where it is hard to immigrate. What are the rules for immigrating to these countries? How would you go about immigrating there? Why do you think the countries make it easy or hard?"
+  - title: Enemy nations
+    description: "Pick any two countries that historically have had bad relations. (For example, China and Japan, or Israel and Palestine.) Do individual citizens in each country hate the other one? Or is just the governments that can't get along? What do you think are some of the causes?"
