@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Multiplication practice</title>
+
+  <!-- Favicon (optional) -->
+  <link rel="icon" href="/favicon.ico" />
+
+  <!-- Styles -->
+  <style>
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Multiplication practice</h1>
+  </header>
+
+  <main>
+    <h3 id="question"></h3>
+    <h2 id="answer"></h2>
+  </main>
+
+  <!-- Scripts -->
+  <script>
+    function getRandomInt(max) {
+        return Math.floor(Math.random() * max);
+    }
+    function sleep(ms) {
+        return new Promise(resolve => setTimeout(resolve, ms));
+    }
+    $(document).ready(function() {
+        var answer = document.getElementById('answer');
+        var question = document.getElementById('question');
+        async function loop() {
+            while (true) {
+                answer.innerHTML = '';
+                question.innerHTML = '';
+                var numberA = getRandomInt(9);
+                var numberB = getRandomInt(9);
+                question.innerHTML = 'What is ' + numberA + ' times ' + numberB + '?';
+                await sleep(3000);
+                answer.innerHTML = numberA * numberB;
+                await sleep(2000);
+            }
+        }
+        loop();
+    });
+  </script>
+</body>
+</html>
