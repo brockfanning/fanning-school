@@ -32,23 +32,21 @@
     function sleep(ms) {
         return new Promise(resolve => setTimeout(resolve, ms));
     }
-    $(document).ready(function() {
-        var answer = document.getElementById('answer');
-        var question = document.getElementById('question');
-        async function loop() {
-            while (true) {
-                answer.innerHTML = '';
-                question.innerHTML = '';
-                var numberA = getRandomInt(9);
-                var numberB = getRandomInt(9);
-                question.innerHTML = 'What is ' + numberA + ' times ' + numberB + '?';
-                await sleep(3000);
-                answer.innerHTML = numberA * numberB;
-                await sleep(2000);
-            }
+    var answer = document.getElementById('answer');
+    var question = document.getElementById('question');
+    async function loop() {
+        while (true) {
+            answer.innerHTML = '';
+            question.innerHTML = '';
+            var numberA = getRandomInt(9);
+            var numberB = getRandomInt(9);
+            question.innerHTML = 'What is ' + numberA + ' times ' + numberB + '?';
+            await sleep(3000);
+            answer.innerHTML = numberA * numberB;
+            await sleep(2000);
         }
-        loop();
-    });
+    }
+    loop();
   </script>
 </body>
 </html>
