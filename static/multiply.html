@@ -44,14 +44,30 @@
     }
     var answer = document.getElementById('answer');
     var question = document.getElementById('question');
+    var valuesA = [0,1,2,3,4,5,6,7,8,9];
+    var valuesB = [0,1,2,3,4,5,6,7,8,9];
     async function loop() {
         while (true) {
             answer.innerHTML = '';
             question.innerHTML = '';
-            var numberA = getRandomInt(9);
-            var numberB = getRandomInt(9);
+            var indexA = getRandomInt(valuesA.length - 1);
+            var indexB = getRandomInt(valuesB.length - 1);
+            var numberA = valuesA[indexA];
+            var numberB = valuesB[indexB];
+            valuesA.splice(indexA, 1);
+            valuesB.splice(indexB, 1);
+            if (valuesA.length < 1) {
+                valuesA = [0,1,2,3,4,5,6,7,8,9];
+            }
+            if (valuesB.length < 1) {
+                valuesB = [0,1,2,3,4,5,6,7,8,9];
+            }
+
             question.innerHTML = 'What is <span>' + numberA + '</span> times <span>' + numberB + '</span>?';
-            await sleep(3000);
+            var delay = 2200;
+            delay += (100 * numberA);
+            delay += (100 * numberB);
+            await sleep(delay);
             answer.innerHTML = numberA * numberB;
             await sleep(2000);
         }
